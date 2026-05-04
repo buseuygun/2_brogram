@@ -4,16 +4,16 @@ export default function Layout(props) {
     const header = (
         <header>
             <h1 className="text-gradient">The Brogram</h1>
-            <p><strong>The 30 simple WO Programs</strong></p>
+            <p><strong>The 30 simple Workout Programs</strong></p>
         </header>
     )
 
     const footer = (
         <footer>
-            <p>Built by <a href="https://fantacss.smoljames.com"
-            target="_blank">SmolBuse</a> <br/>Styled with <a 
-            href="https://fantacss.smoljames.com"
-            target="_blank">FantaCSS</a></p>
+            <p>Check   <a href="https://github.com/buseuygun"
+            target="_blank">  <br/>Github</a> & <a 
+            href="https://www.linkedin.com/in/busenuruygun95/"
+            target="_blank">Linkedin</a></p>
         </footer>
     )
 
