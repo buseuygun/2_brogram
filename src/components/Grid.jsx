@@ -25,7 +25,7 @@ export default function Grid() {
       }
     }
     setSavedWorkouts(newObj)
-    localStorage.setItem('brogram', JSON.stringify(newObj))
+    localStorage.setItem('FitLog', JSON.stringify(newObj))
     setSelectedWorkout(null)
   }
 
@@ -44,8 +44,8 @@ export default function Grid() {
     if (!localStorage) { return }
 
     let savedData = {}
-    if (localStorage.getItem('brogram')) {
-      savedData = JSON.parse(localStorage.getItem('brogram'))
+    if (localStorage.getItem('FitLog')) {
+      savedData = JSON.parse(localStorage.getItem('FitLog'))
     }
     setSavedWorkouts(savedData)
 

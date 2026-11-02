@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    
 }
 
 header,
@@ -149,6 +150,32 @@ button.help-icon:hover {
 .skill-name {
     text-transform: capitalize;
 }
+
+
+
+/* Rainbow workout cards */
+
+.card.plan-card,
+.card.workout-card {
+  border: 2px solid transparent;
+  border-radius: 16px;
+
+  background:
+    linear-gradient(#1c1c35, #1c1c35) padding-box,
+    linear-gradient(
+      120deg,
+      #ff4d9d,
+      #a855f7,
+      #38bdf8,
+      #34d399,
+      #facc15
+    ) border-box;
+
+  color: #ffffff;
+}
+
+
+
 .modal-container {
     position: fixed;
     top: 0;
